@@ -23,9 +23,9 @@
 
         <div class="title-box">
 
-            <h1>
+            <h2>
                 <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-            </h1>
+            </h2>
         <!--
         <?php
 			$tag_list = get_the_tag_list('<ul class="tags-links"><li>',', </li><li>','</li></ul>');
