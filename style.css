@@ -2799,14 +2799,14 @@ aside.post-meta {
     width: 100%;
     z-index: 2;
 }
-
+/*
 #content .title-box:after {
     border-top: 1px solid #e5e5e5;
     content: "";
     display: block;
     margin: 0 -100px;
 }
-
+*/
 #content .title-box > li {
     color: #b5b5b5;
     font-weight: 500;
@@ -2845,7 +2845,7 @@ aside.post-meta {
     font-size: 11px;
     height: 68px;
     overflow: visible;
-    padding: 0 30px 0 76px;
+    padding: 0 10px 0 10px;
     position: absolute;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
@@ -2854,6 +2854,11 @@ aside.post-meta {
     transition: all .3s ease-out;
     width: 100%;
     z-index: 2;
+}
+
+#content .article-helper .title-box>header>h2 {
+    font-size:14px;
+}
 }
 /*
 #content .article-helper .title-box:before {
