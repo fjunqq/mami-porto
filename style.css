@@ -2921,11 +2921,11 @@ aside.post-meta {
 @media (max-width: 1140px) {
 
     .site-content.archive article {
-        height: 296px;
+        height: 280px;
     }
 
     .article-helper {
-        height: 280px;
+        height: 260px;
     }
 
     .site-content.archive article {
