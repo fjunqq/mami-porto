@@ -23,7 +23,7 @@
 		
 		<div id="gk-copyrights">
 			<?php do_action('portfolio_credits'); ?>
-			<p class="copyright">Made With <i class="fa fa-heart"></i>. <a href="http://mamifair.com/"> MamiFair </a></p>
+			<p class="copyright">Made With <i class="fa fa-heart-o"></i>. <a href="http://mamifair.com/"> MamiFair </a></p>
 		</div><!-- .site-info -->
 	</footer><!-- end of #gk-footer -->
 	
