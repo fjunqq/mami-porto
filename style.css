@@ -2836,3 +2836,27 @@ aside.post-meta {
     width: 40px;
 }
 */
+
+#content .article-helper .title-box {
+    background: #fff;
+    border-top: 0;
+    bottom: 0;
+    color: #b5b5b5;
+    font-size: 11px;
+    height: 68px;
+    overflow: visible;
+    padding: 0 30px 0 76px;
+    position: absolute;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    width: 100%;
+    z-index: 2;
+}
+
+#content .article-helper .title-box:before {
+    left: 20px;
+}
+
