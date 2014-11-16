@@ -2905,3 +2905,26 @@ aside.post-meta {
     }
 
 }
+
+/*
+    * archive picture height-width
+    */
+
+.site-content.archive article {
+    height: 386px;
+}
+
+.article-helper {
+    height: 350px;
+}
+
+@media (max-width: 1140px) {
+
+    .site-content.archive article {
+        height: 296px;
+    }
+
+    .article-helper {
+        height: 280px;
+    }
+}
