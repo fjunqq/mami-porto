@@ -2750,6 +2750,9 @@ body.single.custom-background #main {
     background-color: #fff;
 }
 
+body.single #main {
+    background-color: #fff;
+}
 aside.post-meta {
     display: none;
 }
