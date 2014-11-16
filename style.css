@@ -2775,6 +2775,11 @@ aside.post-meta {
 }
 
 
+.gk-social-buttons {
+    display: none;
+}
+
+
 
 
 /**
@@ -2870,3 +2875,25 @@ aside.post-meta {
     left: 20px;
 }
 */
+
+/*
+    * mobile article
+    */
+
+@media (max-width: 720px) {
+    .entry-title {
+        font-size: 14px;
+        padding: 10px 10px 0 10px!important;
+    }
+
+    #content .post-meta,
+    .entry-content,
+    .entry-summary {
+        padding: 0 10px;
+    }
+
+    .entry-meta {
+        padding: 0 0px;
+    }
+
+}
