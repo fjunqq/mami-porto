@@ -2714,6 +2714,10 @@ select {
 }
 
 
+/**
+ * Custom
+ * ----------------------------------------------------------------------------
+ */
 
 
 .main-navigation {
@@ -2763,4 +2767,70 @@ aside.post-meta {
     background-color: #FFF; /* Fix to make div clickable in IE */
     opacity: 0; /* Fix to make div clickable in IE */
     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+
+
+
+/**
+ * title-box
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+#content .title-box {
+    background: #fff;
+    border-top: 1px solid #fff;
+    bottom: 0;
+    color: #b5b5b5;
+    display: block;
+    font-size: 11px;
+    height: 68px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 0 0 50px;
+    position: relative;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    width: 100%;
+    z-index: 2;
+}
+
+#content .title-box:after {
+    border-top: 1px solid #e5e5e5;
+    content: "";
+    display: block;
+    margin: 0 -100px;
+}
+
+#content .title-box > li {
+    color: #b5b5b5;
+    font-weight: 500;
+    float: left;
+    list-style-type: none;
+    line-height: 69px;
+    padding-right: 4px;
+}
+
+#content .title-box a {
+    color: #777;
+}
+
+#content .title-box:before {
+    bottom: 0;
+    color: #ddd;
+    content: "\f02b";
+    display: block;
+    font-size: 20px;
+    font-family: FontAwesome;
+    height: 70px;
+    left: -10px;
+    line-height: 80px;
+    position: absolute;
+    text-align: right;
+    width: 40px;
 }
