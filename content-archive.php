@@ -9,9 +9,10 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> data-cols="<?php echo get_theme_mod('portfolio_article_column', '4')?>">
 	<div class="article-helper notloaded">
+        <a href="<?php the_permalink(); ?>" rel="bookmark"></a>  <!--div block link-->
 
 		<div class="post-preview transition">
-		<a href="<?php the_permalink(); ?>" rel="bookmark"></a>  <!--div block link-->
+
 			<?php get_template_part('content', 'header'); ?>
 		
 			<?php if (is_home() || is_search() || is_archive() || is_tag()) : // Only display Excerpts for Search ?>

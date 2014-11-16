@@ -44,7 +44,7 @@
                 }          
               }, 500);
 
-/*
+
               // add necessary mouse events
               wrapper.mouseenter(function() {
                 wrapper.addClass('article-hover');
@@ -53,7 +53,7 @@
               wrapper.mouseleave(function() {
                 wrapper.removeClass('article-hover');
               });
-*/
+
             } else {
               // where there is no image - display the text directly
               wrapper.addClass('article-hover');
