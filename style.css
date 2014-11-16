@@ -2856,10 +2856,10 @@ aside.post-meta {
     z-index: 2;
 }
 
-#content .article-helper .title-box>header>h2 {
+#content .article-helper .title-box>h2 {
     font-size:14px;
 }
-}
+
 /*
 #content .article-helper .title-box:before {
     left: 20px;

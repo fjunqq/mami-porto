@@ -22,12 +22,9 @@
 		</div>
 
         <div class="title-box">
-            <header>
-
             <h2>
                 <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
             </h2>
-            </header>
         <!--
         <?php
 			$tag_list = get_the_tag_list('<ul class="tags-links"><li>',', </li><li>','</li></ul>');
