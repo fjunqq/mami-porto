@@ -2724,6 +2724,12 @@ select {
  * ----------------------------------------------------------------------------
  */
 
+.site-logo{
+    height:55px;
+    width:200px;
+    padding-top:3px;
+}
+
 
 .main-navigation {
 	display: none;
@@ -2933,3 +2939,6 @@ aside.post-meta {
 
     }
 }
+
+
+
