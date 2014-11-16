@@ -21,18 +21,19 @@
 			</div><!-- .entry-summary -->
 		</div>
 
-        <div class="tags-links">
+        <div class="title-box">
 
             <h1>
                 <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
             </h1>
-
+        <!--
         <?php
 			$tag_list = get_the_tag_list('<ul class="tags-links"><li>',', </li><li>','</li></ul>');
 			if ($tag_list) {
 				echo $tag_list;
 			}
 		?>
+		-->
         </div>
 
 		<?php else : ?>
