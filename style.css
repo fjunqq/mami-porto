@@ -2927,4 +2927,9 @@ aside.post-meta {
     .article-helper {
         height: 280px;
     }
+
+    .site-content.archive article {
+        padding: 10px 10px;
+
+    }
 }
